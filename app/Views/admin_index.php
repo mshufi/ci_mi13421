@@ -21,7 +21,7 @@
 	        	Products
 	        </a>
 	        <a class="nav-link active" href="<?=base_url('customer');?>">Customers</a>
-	        <a class="nav-link active" href="#">Transactions</a>
+	        <a class="nav-link active" href="<?=base_url('transaksi');?>">Transactions</a>
 	        <a class="nav-link active text-warning fw-bold" href="#">Logout</a>
 	      </div>
 	    </div>

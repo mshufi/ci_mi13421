@@ -54,6 +54,8 @@ abstract class BaseController extends Controller
         // E.g.: $this->model_name = model(\App\Models\model_name::class);
             $this->ProdukModel = model(\App\Models\ProdukModel::class);
             $this->CustomerModel = model(\App\Models\CustomerModel::class);
+            $this->TransHeaderModel = model(\App\Models\TransHeaderModel::class);
+            $this->TransDetailModel = model(\App\Models\TransDetailModel::class);
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
